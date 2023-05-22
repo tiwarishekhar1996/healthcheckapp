@@ -4,9 +4,9 @@ name: "Java CI with Multi-arch Docker Image"
 # Event triggering conditions and branching
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 # a job
 jobs:
