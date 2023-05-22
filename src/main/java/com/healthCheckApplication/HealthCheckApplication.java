@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HealthCheckApplication {
 
 	public static void main(String[] args) {
+		System.out.println("First App deployed");
 		SpringApplication.run(HealthCheckApplication.class, args);
 	}
 
